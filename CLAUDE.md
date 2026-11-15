@@ -1,5 +1,12 @@
-# Claude Code 專案指引
+# CLAUDE.md
 
-本專案的共用 Agent 規範位於 [AGENTS.md](AGENTS.md)，請完整閱讀並遵守。它涵蓋專案架構、常用命令、內容與隱私守則、無障礙／SEO 要求及 Git 工作流程；本檔案不另複製規則，以避免與其他 Agent 的指引分歧。
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-若本檔案與使用者當下的明確要求衝突，以使用者要求為準；若只涉及 GitHub／Claude Code 操作，仍須遵守 `CONTRIBUTING.md` 的流程與本專案「未被要求不要 commit、push 或開 PR」的原則。
+本專案所有 AI coding agent 的共用規範在 `AGENTS.md`，由下一行匯入；**專案規則只改 `AGENTS.md`**，這裡只放 Claude Code 專用的事項。
+
+@AGENTS.md
+
+## Claude Code 專用
+
+- 預覽工具請用 `.claude/launch.json` 的 `site` 設定（埠號 8765）。
+- `.claude/`（含預覽用的 `launch.json`）已被 `.gitignore` 排除，不會進 repo。

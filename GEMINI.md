@@ -1,5 +1,5 @@
-# Gemini 專案指引
+# GEMINI.md
 
-請先閱讀並遵守 [AGENTS.md](AGENTS.md)。它是本 repo 所有 AI coding agent 的唯一共用規範來源，包含架構、命令、內容守則、無障礙、SEO、隱私與 Git 流程。
+本專案所有 AI coding agent 的共用規範在 `AGENTS.md`，由下一行匯入；**專案規則只改 `AGENTS.md`**，這裡只放 Gemini 專用的事項（目前沒有）。
 
-不要在本檔案複製專案規則；如需補充 Gemini 專用的工具操作，應放在這裡並避免改變 `AGENTS.md` 的專案要求。
+@AGENTS.md
